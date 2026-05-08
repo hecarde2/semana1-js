@@ -1,12 +1,12 @@
 
 //utilizando en prompt le pide el nombre al usuario
-const nombreUsuario = prompt("Por favor, ingresa tu nombre:");
+const nombreUsuario = prompt("Ingresa tu nombre:");
 
 // pide la edad al usuario
-const edadIngresada = prompt("Por favor, ingresa tu edad:");
+const edad = prompt("Ingresa tu edad:");
 
 // conversión en número
-const edadUsuario = Number(edadIngresada);
+const edadUsuario = Number(edad);
 
 // verificación si es número 
 if (isNaN(edadUsuario)) {
